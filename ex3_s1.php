@@ -31,7 +31,7 @@ class Stagiaire{
     public function setGroupe($groupe): void {
         $this->groupe = $groupe ; 
     }
-    public function toString(){
+    public function toString():string{
         return " <br> $this->code  , $this->nom , $this->prenom , $this->groupe <br> "; 
     }
     public function getNbrStagiaire():int{
