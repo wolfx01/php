@@ -12,7 +12,31 @@ class Chauffeur{
     }
     
 }
+class  Bus{
+    private string $matricule, $marque, $type; 
+    public function __construct(string $matricule, string $marque,string $type){
+        $this->matricule = $matricule;
+        $this->marque = $marque;
+        $this->type = $type; 
+    
 
+
+
+    }
+    public function getMatricule():string{
+        return $this->matricule;
+    }
+    public function getMarque():string{
+        return $this->marque;
+    }
+    public function getType():string{
+        return $this->type;
+    }
+    public  function toString(){
+        return "$this->matricule  $this->marque  $this->type";
+    }
+    
+}
 
 
 
