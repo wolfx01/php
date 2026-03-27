@@ -114,6 +114,23 @@ class Cours {
                 " Module : " . $this -> module -> getNomModule() ;
     }
 }
+$listformateur = [];
+$listformateur[] = new Formateur("f" , "rff" , "efds" , "sfd")
+?>
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+
 
 $listFormateur = [] ;
 $listGroupe = [] ;
@@ -181,6 +198,4 @@ if (empty($modules)) {
         echo "Module : " . $cours->getModule()->getNomModule() . " | ";
         echo "Groupe : " . $cours->getGroupe()->getCodeG() . "<br>";
     }
-}
-
-?>
+} -->
